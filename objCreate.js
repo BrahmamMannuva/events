@@ -5,7 +5,6 @@ var person = {
         return this.firstname + " " + this.lastname
     }    
 }
-
 var fname = Object.create(person);
 fname.firstname = 'Venkata';
 fname.lastname = 'Brahmam';
