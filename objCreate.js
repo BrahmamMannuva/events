@@ -13,6 +13,5 @@ fname.lastname = 'Brahmam';
 var ravi = Object.create(person);
 ravi.firstname = 'Ravi';
 ravi.lastname = 'Kumar';
-
 console.log(fname.greet());
 console.log(ravi.greet());
